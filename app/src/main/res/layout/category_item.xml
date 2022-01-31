@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewCategory"
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17"
+        tools:srcCompat="@drawable/ball_cover" />
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:background="@android:drawable/toast_frame"
+        android:textAlignment="center"
+        android:textColor="#3B0B43"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCategory"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCategory"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCategory"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCategory"
+        app:layout_constraintVertical_bias="0.895"
+        tools:text="توپ"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
